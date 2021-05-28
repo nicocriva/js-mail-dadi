@@ -3,12 +3,12 @@
 //2 Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 
-var giocatore = Math.floor(Math.random() * 6 + 1);;
-document.getElementById('numeroGiocatore').innerHTML = ('punteggio giocatore: ') + giocatore;
+var giocatore = Math.floor(Math.random() * 6 + 1);
+document.getElementById('numeroGiocatore').innerHTML = ('Punteggio giocatore: ') + giocatore;
 
 
-var computer = Math.floor(Math.random() * 6 + 1);;
-document.getElementById('numeroCommputer').innerHTML = ('punteggio computer: ') + computer;
+var computer = Math.floor(Math.random() * 6 + 1);
+document.getElementById('numeroCommputer').innerHTML = ('Punteggio computer: ') + computer;
 
 
 var risultato = 'Il punteggio è pari!';
