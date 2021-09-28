@@ -8,7 +8,7 @@ document.getElementById('numeroGiocatore').innerHTML = ('Punteggio giocatore: ')
 
 
 var computer = Math.floor(Math.random() * 6 + 1);
-document.getElementById('numeroCommputer').innerHTML = ('Punteggio computer: ') + computer;
+document.getElementById('numeroComputer').innerHTML = ('Punteggio computer: ') + computer;
 
 
 var risultato = 'Il punteggio è pari!';
